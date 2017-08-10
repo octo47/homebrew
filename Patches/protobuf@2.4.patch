@@ -1,0 +1,12 @@
+diff -ru protobuf-2.4.1/src/google/protobuf/message.cc protobuf-2.4.1.patch/src/google/protobuf/message.cc
+--- protobuf-2.4.1/src/google/protobuf/message.cc	2011-04-30 18:22:04.000000000 +0100
++++ protobuf-2.4.1.patch/src/google/protobuf/message.cc	2017-08-10 11:52:18.000000000 +0100
+@@ -33,6 +33,7 @@
+ //  Sanjay Ghemawat, Jeff Dean, and others.
+
+ #include <stack>
++#include <iostream>
+ #include <google/protobuf/stubs/hash.h>
+
+ #include <google/protobuf/message.h>
+ 
