@@ -5,8 +5,6 @@ class ProtobufAT24 < Formula
   homepage 'https://github.com/google/protobuf/releases/tag/v2.4.1'
   sha256 'cf8452347330834bbf9c65c2e68b5562ba10c95fa40d4f7ec0d2cb332674b0bf'
 
-  fails_with_llvm
-
   def options
     [['--universal', 'Do a universal build']]
   end
